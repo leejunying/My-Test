@@ -1,0 +1,104 @@
+[
+  {
+    "parent": "",
+    "name": "SIMPSON FAMILY",
+    "attributes": {
+        "sex":"none"
+
+    },
+
+    "children": [
+      {
+        "parent": "SIMPSON FAMILY",
+        "name": "ABE SIMPSON",
+        "attributes": {
+          "sex": "male"
+        }
+      },
+      {
+        "parent": "SIMPSON FAMILY",
+        "name": "MONA SIMPSON",
+        "attributes": {
+          "sex": "female"
+        },
+        "children": [
+          {
+            "parent": "MONA SIMPSON",
+            "name": "HERB SIMPSON ",
+            "attributes": {
+              "sex": "male"
+            }
+          },
+          {
+            "parent": "MONA SIMPSON",
+            "name": "HOMERS SIMPSON",
+            "attributes": {
+              "sex": "male"
+            }
+          }
+        ]
+      },
+
+      {
+        "parent": "SIMPSON FAMILY",
+        "name": "JACQUELINE BOUVIER",
+        "attributes": {
+        "sex": "female"
+        },
+        "children": [
+          {
+            "parent": "JACQUELINE BOUVIER",
+            "name": "MARGE BOUVIER",
+            "attributes": {
+              "sex": "female"
+            },
+            "children": [
+              {
+                "parent": "MARGE BOUVIER",
+                "name": "BART SIMPSON",
+                "attributes": {
+                  "sex": "male"
+                }
+              },
+              {
+                "parent": "MARGE BOUVIER",
+                "name": "LISA SIMPSON",
+                "attributes": {
+                  "sex": "female"
+                }
+              },
+              {
+                "parent": "MARGE BOUVIER",
+                "name": "MAGGIE SIMPSON",
+                "attributes": {
+                  "sex": "female"
+                }
+              }
+            ]
+          },
+          {
+            "parent": "JACQUELINE BOUVIER",
+            "name": "PATTY BOUVIER",
+            "attributes": {
+              "sex": "female"
+            }
+          },
+          {
+            "parent": "JACQUELINE BOUVIER",
+            "name": "SELMA BOUVIER  ",
+            "attributes": {
+              "sex": "female"
+            }
+          }
+        ]
+      },
+      {
+        "parent": "SIMPSON FAMILY",
+        "name": "CLANCY  BOUVIER",
+        "attributes": {
+          "sex": "male"
+        }
+      }
+    ]
+  }
+]
